@@ -1,0 +1,25 @@
+#login_title{
+    color: white;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#login_img{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#login_form{
+    width: 400px;       
+}
+
+#login_body{
+    background-image: linear-gradient(to top,#542876 50%, #000000);  
+    min-height: 100vh; 
+}
+
+#login{
+    background-color: #2F2841;
+    width: 500px;
+    border-radius: 50px;  
+}

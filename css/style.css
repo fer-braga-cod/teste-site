@@ -1,29 +1,43 @@
-/* Login Page */
-#login_title{
-    color: white;
-    font-size: 50px;
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+/* NavBar */
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho_img{
+    height: 65px;
+}
+
+.cabecalho_menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho_menu_item{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
 }
 
-#login_img{
-    width: 200px;
-    border-radius: 100px;
+.cabecalho_menu_item[aria-current="page"] {
+    font-weight: bold;
 }
 
-#login_form{
-    width: 400px;       
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
 }
 
-#login_body{
-    background-image: linear-gradient(to top,#542876 50%, #000000);  
-    min-height: 100vh; 
+.rodape_img{
+    height: 55px;
+    display: block;
+    margin: 0 auto;
 }
-
-#login{
-    background-color: #2F2841;
-    width: 500px;
-    border-radius: 50px;  
-}
-/*#############################################################################################*/
-
-/* Home Page */
